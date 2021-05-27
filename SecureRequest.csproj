@@ -4,4 +4,10 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="SecureRequestTests\**" />
+    <EmbeddedResource Remove="SecureRequestTests\**" />
+    <None Remove="SecureRequestTests\**" />
+  </ItemGroup>
+
 </Project>
